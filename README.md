@@ -26,7 +26,7 @@ DNS.1 = localhost<br>
 openssl req -new -x509 -newkey rsa:2048 -sha256 -nodes -keyout localhost.key -days 3560 -out localhost.crt -config certificate.cnf<br>
 
 4) subir o servidor com o comando abaixo:<br>
-ng serve --ssl --ssl-cert /home/chesley/ssl/localhost.crt --ssl-key /home/chesley/ssl/localhost.key<br>
+ng serve --ssl --ssl-cert /home/chesley/Downloads/angular8-springboot-websocket-master/ssl/localhost.crt --ssl-key /home/chesley/Downloads/angular8-springboot-websocket-master/ssl/localhost.key<br>
 <br>
 
 ***** SEGURANCA (HTTPS/SSL) NA APLICACAO SPRING BOOT *****<br>
